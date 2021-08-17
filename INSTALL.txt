@@ -1,0 +1,48 @@
+                INSTALL instructions for Calanguize
+          (last updated 11/30/2020 - mm/dd/yyyy format)
+
+AUTHORS
+-=-=-=-
+
+Thieres Tayroni Martins da Silva (thierestayroni@gmail.com)
+
+First things first: dependencies
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+A - Third-party software
+-=-=-=-=-=-=-=-=-=-=-=-=
+
+You need to install the following third-party software to use Calanguize:
+
+- Busco  - https://busco.ezlab.org/
+
+
+B - Busco Datasets
+
+You need to dowload the busco dataset according to the group being studied. Busco datasets can be found in: https://busco.ezlab.org/
+
+C - Assembly summary
+
+You need a summary file of the RefSeq or Genbank
+refseq - ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt
+genbank - ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/assembly_summary_genbank.txt
+
+D - Python modules
+-=-=-=-=-=-=-=-=
+
+You also need to have Python, BioPython, and some of its modules installed.
+
+pip3 install Bio
+
+Setting Calanguize environment
+-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Editing 'komodize_config'
+-=-=-=-=-=-=-=-=-=-=-
+
+phyton=		#path to python; same as you used to compile Busco
+busco =		#path to run_BUSCO.py 
+
+D - Assembly Summary Refseq
+
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt
